@@ -15,7 +15,10 @@ body {
   font-family: "Merriweather", serif;
   font-family: "PT Serif", serif;
   color: grey;
-  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .logo {
   width: 300px;
@@ -23,10 +26,9 @@ body {
 }
 
 .container {
-  margin: 0px auto;
   text-align: center;
   min-width: 480px;
-  /* max-width: 700px; */
+  max-width: 800px;
 }
 
 .card {
