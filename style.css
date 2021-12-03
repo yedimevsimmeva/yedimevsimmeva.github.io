@@ -1,0 +1,90 @@
+body {
+  --purple: #8a6da6;
+  --green: #568c1f;
+  --white: #fefef6;
+  --grey: #5d5c5a;
+  --yellow: #f2c029;
+  --red: #d95f5f;
+  --red: #44acd0;
+
+  background-color: var(--white);
+  margin: 0px;
+  padding: 0px 70px;
+
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Merriweather", serif;
+  font-family: "PT Serif", serif;
+  color: grey;
+  text-align: center;
+}
+.logo {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.container {
+  margin: 0px auto;
+  text-align: center;
+  min-width: 480px;
+  /* max-width: 700px; */
+}
+
+.card {
+  background-color: #e9e9df;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 0px #e9e9df;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  list-style: none;
+}
+
+nav > li {
+  /* background-color: yellow; */
+  border-radius: 3px;
+  flex-grow: 1;
+  padding: 10px 0px;
+  transition: 0.3s;
+  color: var(--grey);
+  cursor: pointer;
+  /* font-size: 16px; */
+  /* font-weight: bold; */
+}
+
+nav > li:hover {
+  box-shadow: 0px 0px 20px 0px #777774;
+  transition: 0.3s;
+  color: var(--green);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse;
+}
+
+.content {
+  padding: 1px 25px 50px 25px;
+}
+
+.cards {
+  margin-left: 20px;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.title {
+  color: rgb(77, 77, 77);
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 5px;
+}
