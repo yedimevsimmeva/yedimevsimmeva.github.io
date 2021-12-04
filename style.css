@@ -10,7 +10,7 @@ body {
   --grey: #5d5c5a;
   --yellow: #f2c029;
   --red: #d95f5f;
-  --red: #44acd0;
+  --blue: #44acd0;
 
   background-color: var(--white);
   margin: 0px;
@@ -28,6 +28,26 @@ body {
 .logo {
   width: 300px;
   margin-top: 30px;
+}
+
+.purple:hover {
+  color: var(--purple);
+}
+
+.green:hover {
+  color: var(--green);
+}
+
+.yellow:hover {
+  color: var(--yellow);
+}
+
+.red:hover {
+  color: var(--red);
+}
+
+.blue:hover {
+  color: var(--blue);
 }
 
 .container {
@@ -74,9 +94,9 @@ nav > li {
 }
 
 nav > li:hover {
-  box-shadow: 0px 0px 20px 0px #777774;
+  box-shadow: 0px 0px 20px -5px #94948d;
   transition: 0.3s;
-  color: var(--green);
+  /* color: var(--green); */
 }
 
 nav > li > a {
@@ -91,7 +111,7 @@ nav > li > a {
 }
 
 .photos > img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .bottom {
@@ -124,7 +144,16 @@ section {
 }
 
 section > header {
-  font-size: 30px;
+  /* text-align: center; */
+  /* border: 2px solid black; */
+  font-size: 34px;
   color: var(--grey);
-  font-weight: bold;
+  font-weight: 700;
+}
+
+footer {
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
 }
