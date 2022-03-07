@@ -5,8 +5,8 @@ html {
 body {
   --purple: #8a6da6;
   --green: #568c1f;
-  --white: #F5DDDD;
-  --white-grey: #F1EAD6;
+  --white: #f5dddd;
+  --white-grey: #f1ead6;
   --grey: #5d5c5a;
   --yellow: #f2c029;
   --red: #d95f5f;
@@ -56,7 +56,6 @@ body {
   margin-top: 30px;
 }
 
-
 .purple:hover {
   color: var(--purple);
 }
@@ -86,10 +85,8 @@ body {
 .card {
   background-color: var(--white-grey);
   border-radius: 5px;
-  box-shadow: 0px 0px 20px 0px rgb(0,0,0,0.1);
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0, 0.1);
 }
-
-
 
 nav {
   /* padding: 5px 0px; */
@@ -127,6 +124,21 @@ nav > li > a {
     flex-direction: column;
     align-items: stretch;
   }
+}
+
+.money {
+  font-weight: 900;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.money-description {
+  font-weight: 900;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+.colored-text {
+  color: var(--green);
 }
 
 .linebreak {
